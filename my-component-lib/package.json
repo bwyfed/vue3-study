@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "npm run build:components && npm run build:dts && npm run build:css",
     "build:components": "vite-node ./scripts/build-module.ts",
     "build:dts": "vite-node ./scripts/build-dts.ts",
     "build:css": "vite-node ./scripts/build-css.ts"
