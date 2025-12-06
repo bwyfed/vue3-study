@@ -10,7 +10,8 @@
     "build:components": "vite-node ./scripts/build-module.ts",
     "build:dts": "vite-node ./scripts/build-dts.ts",
     "build:css": "vite-node ./scripts/build-css.ts",
-    "dev:components": "vite-node ./scripts/dev-components.ts"
+    "dev:components": "vite-node ./scripts/dev-components.ts",
+    "dev:business": "vite-node ./scripts/dev-business.ts"
   },
   "keywords": [],
   "author": "",
