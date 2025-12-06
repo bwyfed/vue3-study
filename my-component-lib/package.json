@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build:components": "vite-node ./scripts/build-module.ts"
+    "build:components": "vite-node ./scripts/build-module.ts",
+    "build:dts": "vite-node ./scripts/build-dts.ts"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "ts-morph": "^27.0.2",
     "typescript": "^5.9.3",
     "unplugin-vue-macros": "^2.14.5",
+    "vite": "^7.2.6",
     "vite-node": "^5.2.0",
     "vue": "^3.5.25"
   }
