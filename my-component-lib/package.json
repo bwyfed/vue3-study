@@ -10,5 +10,20 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/less": "^3.0.8",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vitejs/plugin-vue-jsx": "^5.1.2",
+    "fast-glob": "^3.3.3",
+    "less": "^4.4.2",
+    "rollup": "^4.53.3",
+    "rollup-plugin-esbuild": "^6.2.1",
+    "ts-morph": "^27.0.2",
+    "unplugin-vue-macros": "^2.14.5",
+    "vue": "^3.5.25"
+  }
 }
