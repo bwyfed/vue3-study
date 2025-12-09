@@ -1,6 +1,6 @@
 <template>
   <Box class="example">
-    <div :style="{ padding: '10px' }">这是开发模式下的 基础组件</div>
+    <div :style="{ padding: '10px', fontSize: 24 }">这是开发模式下的 基础组件</div>
     <Button @click="onClick">点击换主题色</Button>
   </Box>
 </template>

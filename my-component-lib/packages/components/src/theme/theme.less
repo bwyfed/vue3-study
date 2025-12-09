@@ -5,6 +5,8 @@
   --@{prefix-name}-page-bg-color: @white;
   // 页面字体颜色
   --@{prefix-name}-page-text-color: @black;
+  // 页面通用边框颜色
+  --@{prefix-name}-page-border-color: @gray-4;
 
   // 按钮主要（Primary）颜色 默认状态
   --@{prefix-name}-btn-primary-color: @blue-1;
@@ -17,15 +19,18 @@
   --@{prefix-name}-btn-primary-bg-color-hover: @blue-8;
 
 
-  &.dark-theme {
-    --@{prefix-name}-page-bg-color: @cyan-10;
-
-    // primary btn
+  &.@{prefix-name}-theme-dark {
+    // 页面背景颜色
+    --@{prefix-name}-page-bg-color: @black;
+    // 页面字体颜色
+    --@{prefix-name}-page-text-color: @white;
+    // 页面通用边框颜色
+    --@{prefix-name}-page-border-color: @gray-4;
+    // 按钮主要（Primary）颜色 默认状态
     --@{prefix-name}-btn-primary-color: @cyan-1;
     --@{prefix-name}-btn-primary-border-color: @cyan-6;
     --@{prefix-name}-btn-primary-bg-color: @cyan-6;
-
-    // primary btn hover
+    // 按钮主要（Primary）颜色 Hover状态
     --@{prefix-name}-btn-primary-color-hover: @cyan-2;
     --@{prefix-name}-btn-primary-border-color-hover: @cyan-8;
     --@{prefix-name}-btn-primary-bg-color-hover: @cyan-8;
