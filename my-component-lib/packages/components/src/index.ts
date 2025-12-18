@@ -9,6 +9,7 @@ import Header from "./header";
 import Footer from "./footer";
 import Content from "./content";
 import Sider from "./sider";
+import Form from "./form";
 
 export {
   Button,
@@ -22,4 +23,5 @@ export {
   Footer,
   Content,
   Sider,
+  Form,
 };
